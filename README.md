@@ -21,6 +21,10 @@ The build uses esbuild's Safari 14 target. The explicit destructuring support se
 
 The settings script's save and query responses were checked in a simulated Shadowrocket environment. The binary location response still requires testing on an iOS 14 device. This repository contains no device identifiers, traffic logs, certificates, database files, private IP addresses, or user-specific location coordinates. The source scripts retain the publicly available upstream default-coordinate comparison.
 
+## iOS 14 workflow
+
+The [Chinese iOS 14.0.1 WLoc MITM workflow](docs/ios14-pinning-workflow.zh-CN.md) records the read-only inspection, verified backup, narrowly scoped rule change, reboot, and separate script checks. It does not include device artifacts or a reusable pinning-rule modification app.
+
 ## License
 
 Derived from Yu9191/wloc. Distributed under the GNU Affero General Public License v3; see [LICENSE](LICENSE).
